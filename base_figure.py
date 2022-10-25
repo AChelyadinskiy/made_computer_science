@@ -1,2 +1,3 @@
 class BaseFigure:
-    pass
+    def square(self):
+        raise NotImplementedError
