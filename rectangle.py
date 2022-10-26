@@ -2,6 +2,8 @@ from base_figure import BaseFigure
 
 
 class Rectangle(BaseFigure):
+    """Class providing basic functionality for rectangle figures"""
+
     def __init__(self, a, b):
         self.a = a
         self.b = b
