@@ -2,6 +2,8 @@ from base_figure import BaseFigure
 
 
 class Square(BaseFigure):
+    """Class providing basic functionality for square figures"""
+
     def __init__(self, a, b):
         self.a = a
         self.b = b
